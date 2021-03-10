@@ -16,6 +16,6 @@ public class WelcomeController {
 	
 	@GetMapping("/home")
 	public String welcomeHome() {
-		return "welcome";
+		return "welcome.jsp";
 	}
 }
