@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class WelcomeController {
 
 	@GetMapping
-	public ResponseEntity<?> welcome() { 
+	public ResponseEntity<?> welcome() {
 		return ResponseEntity.ok("Welcome to LearnJenkins Maven Project");
 	}
 	
