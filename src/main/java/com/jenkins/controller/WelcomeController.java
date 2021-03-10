@@ -13,4 +13,9 @@ public class WelcomeController {
 	public ResponseEntity<?> welcome() {
 		return ResponseEntity.ok("Welcome to LearnJenkins Maven Project");
 	}
+	
+	@GetMapping("/home")
+	public String welcomeHome() {
+		return "welcome";
+	}
 }
