@@ -1,8 +1,0 @@
-server:
-   port: 5200
-   
-spring:
-   mvc:
-      view:
-         prefix: /WEB-INF/view/
-         suffix: .jsp
